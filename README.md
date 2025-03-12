@@ -1,4 +1,4 @@
-# Analysis Sales Performance on Trendyol Platform
+# Trendyol Sales Performance Analysis  
 
 
 ## Project Overview
