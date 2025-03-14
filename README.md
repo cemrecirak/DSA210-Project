@@ -15,11 +15,35 @@ I am a student from Sabancı University, Cemre Çırak and this is my DSA 210 te
 I am interested in exploring the unique dynamic of e-commerce platforms and finding out which categories sell the most and identify sales trends and high-traffic periods. My motivation behind choosing this topic is to gain actionable insights into the  dynamics of selling white goods on Trendyol. These insights can help optimize business strategies on online shopping platforms related to inventory management, pricing, and targeted marketing, ultimately maximizing profitability.
 
 ## Dataset
-The dataset consists of two months of sales records data collected directly from **Trendyol Seller Platform** in Excel format. The datasets has information on factors such as sales date, sale time, product categories, prices, quantity sold, total revenue, and customer demographics (age, location, etc.).
+The dataset consists of detailed sales data collected from Trendyol’s seller platform between July and August 2024. Data attributes include:
+
+Sales Date: Date of transaction
+
+Sales Time: Time of transaction (hour/minute)
+
+Product Category: Type of white goods (e.g., washing machine, refrigerator, dishwasher, etc.)
+
+Price: Sale price of the product
+
+Quantity Sold: Number of units sold per transaction
+
+Total Revenue: Total revenue from the sale (price multiplied by quantity sold)
+
+Customer Demographics: Age, location, and other demographic details (if available)xcel format. The datasets has information on factors such as sales date, sale time, product categories, prices, quantity sold, total revenue, and customer demographics (age, location, etc.).
 
 ## Plan
-- **Data Collection:** Data will be collected from the sales in July and August 2024.
-- **Data Preparation and Analysis:** Data will be cleaned and standardized. Exploratory Data Analysis (EDA) will be conducted to identify trends and patterns using statistical methods and visualization techniques. Machine learning models will be applied for predictive analysis and segmentation.
+**Data Collection:** Data will be collected from Trendyol's seller platform.
+
+**Data Cleaning and Preparation:** Data standardization, handling missing values, and normalization.
+
+**Exploratory Data Analysis (EDA):** Identifying sales trends and patterns.
+
+**Visualization:** Using visualization methods such as bar plots, line graphs, and heatmaps.
+
+**Statistical Analysis:** Conduct hypothesis tests
+
+**Machine Learning Modeling:** Regression models for forecasting sales, clustering techniques for customer segmentation.
+
 
 ## Hypothesis
 - **Null Hypothesis (H₀):** There is no significant relationship between product category, pricing strategies, temporal factors (day/time), and sales performance.
