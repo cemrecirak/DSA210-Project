@@ -64,25 +64,25 @@ I am a student from Sabancı University, **Cemre Çırak**, and this is my DSA21
 - **Test:** Chi-Square Test of Independence
 - **H₀:** Gender and product category are independent.
 - **H₁:** Gender and product category are associated.
-- **Result:** p-value < 0.05 → **Reject H₀** → Gender and category are associated.
+- **Result:** p = 0.0001 → p-value < 0.05 → **Reject H₀** → Gender and category are associated.
 
 ### 2. Weekday vs Weekend Sales
 - **Test:** Independent t-test
 - **H₀:** Mean sales quantity is the same on weekdays and weekends.
 - **H₁:** Mean sales quantity differs on weekdays and weekends
-- **Result:** p-value > 0.05 → **Fail to reject H₀** → No significant difference.
+- **Result:** p = 0.2928 → p-value > 0.05 → **Fail to reject H₀** → No significant difference.
 
 ### 3. Sales by Hour
 - **Test:** One-Way ANOVA
 - **H₀:** No difference in sales quantity across different hours.
 - **H₁:** Hour has a significant effect on the sales quantity.
-- **Result:** p-value < 0.05 → **Reject H₀** → Hour has a significant effect.
+- **Result:** p = 0.6304 → p-value < 0.05 → **Fail to reject H₀** → No significant relationship between hour and sales quantity.
 
 ### 4. City vs Product Category
 - **Test:** Chi-Square Test of Independence
 - **H₀:** No relationship between city and product category.
 - **H₁:** City and product category are associated.
-- **Result:** p-value < 0.05 → **Reject H₀** → City and category are associated.
+- **Result:** p = 0.9778 → p-value < 0.05 → **Fail to reject H₀** → No significant relationship between province and product category.
 
 ---
 
