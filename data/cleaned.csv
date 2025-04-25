@@ -1,0 +1,356 @@
+order_date,city,quantity,unit_price,total_revenue,age,category,hour,day_of_week,is_weekend,guessed_gender
+2024-08-04 01:52:00,İstanbul,1,10535.0,10535.0,,Oven,1,Sunday,True,Male
+2024-08-04 03:40:00,Bursa,1,16571.0,16571.0,,Deep Freezer,3,Sunday,True,Female
+2024-08-04 03:52:00,Elazığ,1,16170.0,16170.0,,Washing Machine,3,Sunday,True,Male
+2024-08-04 03:52:00,Elazığ,1,10535.0,10535.0,,Oven,3,Sunday,True,Male
+2024-08-04 05:06:00,Kastamonu,1,16095.0,16095.0,21-30,Dishwasher,5,Sunday,True,Female
+2024-08-04 06:17:00,İzmir,1,16095.0,16095.0,31-40,Dishwasher,6,Sunday,True,Female
+2024-08-04 09:06:00,Giresun,1,19261.0,19261.0,,Dryer,9,Sunday,True,Male
+2024-08-04 09:20:00,Muğla,1,12446.0,12446.0,51-60,Deep Freezer,9,Sunday,True,Female
+2024-08-04 10:03:00,Aydın,1,26950.0,26950.0,51-60,Refrigerator,10,Sunday,True,Male
+2024-08-04 10:07:00,Bolu,1,15780.0,15780.0,,Dishwasher,10,Sunday,True,Male
+2024-08-04 10:48:00,Ankara,1,14200.0,14200.0,31-40,Deep Freezer,10,Sunday,True,Male
+2024-08-04 11:30:00,Nevşehir,1,15450.0,15450.0,,Washing Machine,11,Sunday,True,Male
+2024-08-04 11:36:00,İstanbul,1,19261.0,19261.0,71+,Dryer,11,Sunday,True,Female
+2024-08-04 11:53:00,İzmir,1,18550.0,18550.0,,Dryer,11,Sunday,True,Female
+2024-08-04 11:59:00,Kastamonu,1,16170.0,16170.0,,Washing Machine,11,Sunday,True,Female
+2024-08-04 12:27:00,Elazığ,1,35500.0,35500.0,,Refrigerator,12,Sunday,True,Male
+2024-08-04 12:27:00,Elazığ,1,14200.0,14200.0,,Deep Freezer,12,Sunday,True,Male
+2024-08-04 12:27:00,İstanbul,1,20085.0,20085.0,31-40,Washing Machine,12,Sunday,True,Male
+2024-08-04 12:37:00,İzmir,1,23658.0,23658.0,31-40,Refrigerator,12,Sunday,True,Female
+2024-08-04 12:49:00,Elazığ,1,16095.0,16095.0,,Dishwasher,12,Sunday,True,Male
+2024-08-04 12:51:00,Aydın,1,16170.0,16170.0,31-40,Washing Machine,12,Sunday,True,Female
+2024-08-04 13:07:00,Eskişehir,1,13250.0,13250.0,71+,Deep Freezer,13,Sunday,True,Male
+2024-08-04 13:17:00,İzmir,1,20090.0,20090.0,,Dishwasher,13,Sunday,True,Male
+2024-08-04 13:18:00,Kayseri,1,19261.0,19261.0,31-40,Dryer,13,Sunday,True,Male
+2024-08-04 13:29:00,İzmir,1,15450.0,15450.0,31-40,Washing Machine,13,Sunday,True,Male
+2024-08-04 13:41:00,İstanbul,1,11760.0,11760.0,41-50,Oven,13,Sunday,True,Unknown
+2024-08-04 14:11:00,Malatya,1,12446.0,12446.0,,Deep Freezer,14,Sunday,True,Male
+2024-08-04 14:50:00,Sakarya,1,15450.0,15450.0,,Washing Machine,14,Sunday,True,Male
+2024-08-04 15:08:00,Manisa,1,13250.0,13250.0,,Deep Freezer,15,Sunday,True,Male
+2024-08-04 15:40:00,Bitlis,1,20850.0,20850.0,,Refrigerator,15,Sunday,True,Male
+2024-08-04 15:47:00,İstanbul,1,16095.0,16095.0,,Dishwasher,15,Sunday,True,Female
+2024-08-04 18:56:00,İstanbul,1,23815.0,23815.0,,Dishwasher,18,Sunday,True,Male
+2024-08-04 19:31:00,Giresun,1,19261.0,19261.0,,Dryer,19,Sunday,True,Male
+2024-08-04 20:19:00,Diyarbakır,1,13250.0,13250.0,31-40,Deep Freezer,20,Sunday,True,Male
+2024-08-04 22:13:00,Hakkari,1,14890.0,14890.0,31-40,Dishwasher,22,Sunday,True,Male
+2024-08-05 10:13:00,Kütahya,1,16800.0,16800.0,31-40,Deep Freezer,10,Monday,False,Female
+2024-08-05 12:32:00,İzmir,1,13248.0,13248.0,31-40,Deep Freezer,12,Monday,False,Male
+2024-08-05 13:26:00,Gaziantep,1,18570.0,18570.0,,Washing Machine,13,Monday,False,Male
+2024-08-05 14:14:00,Konya,1,26230.0,26230.0,21-30,Dishwasher,14,Monday,False,Female
+2024-08-05 14:33:00,Antalya,1,41000.0,41000.0,,Refrigerator,14,Monday,False,Male
+2024-08-05 14:40:00,Samsun,1,20400.0,20400.0,,Washing Machine,14,Monday,False,Male
+2024-08-05 16:37:00,İzmir,1,22740.0,22740.0,41-50,Washing Machine,16,Monday,False,Male
+2024-08-05 16:37:00,İzmir,1,19650.0,19650.0,41-50,Dryer,16,Monday,False,Male
+2024-08-05 16:51:00,İstanbul,1,10780.0,10780.0,21-30,Oven,16,Monday,False,Male
+2024-08-05 18:34:00,Edirne,1,19650.0,19650.0,31-40,Dryer,18,Monday,False,Female
+2024-08-05 19:06:00,Ankara,1,17199.0,17199.0,31-40,Washing Machine,19,Monday,False,Male
+2024-08-05 21:01:00,Rize,1,19650.0,19650.0,41-50,Dryer,21,Monday,False,Male
+2024-08-05 21:14:00,Adana,1,20400.0,20400.0,,Washing Machine,21,Monday,False,Male
+2024-08-05 22:01:00,İstanbul,1,19650.0,19650.0,,Dryer,22,Monday,False,Female
+2024-08-05 22:46:00,Kocaeli,1,26309.0,26309.0,,Refrigerator,22,Monday,False,Male
+2024-08-06 11:59:00,Denizli,1,41000.0,41000.0,,Refrigerator,11,Tuesday,False,Male
+2024-08-06 12:13:00,İstanbul,1,17350.0,17350.0,,Dishwasher,12,Tuesday,False,Male
+2024-08-06 13:16:00,İstanbul,1,13474.0,13474.0,31-40,Deep Freezer,13,Tuesday,False,Male
+2024-08-06 14:45:00,Isparta,1,16950.0,16950.0,,Washing Machine,14,Tuesday,False,Male
+2024-08-06 15:32:00,Hatay,1,22880.0,22880.0,,Washing Machine,15,Tuesday,False,Male
+2024-08-06 17:14:00,Kocaeli,1,27450.0,27450.0,,Refrigerator,17,Tuesday,False,Male
+2024-08-06 19:46:00,Kocaeli,1,19796.0,19796.0,,Dishwasher,19,Tuesday,False,Male
+2024-08-06 20:53:00,Bursa,1,17350.0,17350.0,,Dishwasher,20,Tuesday,False,Female
+2024-08-06 21:13:00,Antalya,1,16950.0,16950.0,71+,Dishwasher,21,Tuesday,False,Male
+2024-08-06 21:54:00,Çanakkale,1,15800.0,15800.0,,Dishwasher,21,Tuesday,False,Female
+2024-08-06 22:28:00,Kahramanmaraş,1,13474.0,13474.0,21-30,Deep Freezer,22,Tuesday,False,Female
+2024-08-06 22:41:00,İzmir,1,23950.0,23950.0,,Refrigerator,22,Tuesday,False,Female
+2024-08-07 11:33:00,İstanbul,1,18570.0,18570.0,41-50,Washing Machine,11,Wednesday,False,Male
+2024-08-07 12:32:00,İstanbul,1,18620.0,18620.0,41-50,Dishwasher,12,Wednesday,False,Male
+2024-08-07 12:33:00,Yozgat,1,16950.0,16950.0,,Washing Machine,12,Wednesday,False,Female
+2024-08-07 14:18:00,İstanbul,1,26068.0,26068.0,31-40,Dryer,14,Wednesday,False,Female
+2024-08-07 22:43:00,Kahramanmaraş,1,11760.0,11760.0,,Oven,22,Wednesday,False,Female
+2024-08-08 11:34:00,İstanbul,1,15800.0,15800.0,41-50,Dishwasher,11,Thursday,False,Male
+2024-08-08 12:52:00,Bursa,1,18620.0,18620.0,,Dishwasher,12,Thursday,False,Male
+2024-08-08 14:00:00,Sakarya,1,20720.0,20720.0,,Dryer,14,Thursday,False,Male
+2024-08-08 19:27:00,Van,1,17150.0,17150.0,21-30,Dishwasher,19,Thursday,False,Male
+2024-08-09 13:52:00,Erzincan,1,17150.0,17150.0,,Dishwasher,13,Friday,False,Male
+2024-08-09 17:53:00,Konya,1,17150.0,17150.0,21-30,Dishwasher,17,Friday,False,Male
+2024-08-09 18:41:00,Ankara,1,15285.0,15285.0,21-30,Washing Machine,18,Friday,False,Female
+2024-08-09 18:44:00,Bilecik,1,15285.0,15285.0,,Washing Machine,18,Friday,False,Male
+2024-08-09 20:18:00,İstanbul,1,1600.0,1600.0,51-60,Coffee Machine,20,Friday,False,Female
+2024-08-09 21:12:00,Mersin,1,32250.0,32250.0,,Refrigerator,21,Friday,False,Male
+2024-08-09 21:20:00,İstanbul,1,6150.0,6150.0,21-30,Vacuum Cleaner,21,Friday,False,Female
+2024-08-09 21:26:00,Denizli,1,4410.0,4410.0,21-30,Vacuum Cleaner,21,Friday,False,Female
+2024-08-09 21:29:00,Ankara,2,5520.0,11040.0,51-60,Vacuum Cleaner,21,Friday,False,Male
+2024-08-09 21:30:00,İstanbul,1,1350.0,1350.0,31-40,Coffee Machine,21,Friday,False,Female
+2024-08-09 21:36:00,Ankara,1,35496.0,35496.0,,Dishwasher,21,Friday,False,Male
+2024-08-09 21:56:00,İstanbul,1,4410.0,4410.0,,Vacuum Cleaner,21,Friday,False,Male
+2024-08-09 21:57:00,Amasya,1,15285.0,15285.0,41-50,Washing Machine,21,Friday,False,Male
+2024-08-09 22:10:00,Elazığ,1,15285.0,15285.0,,Washing Machine,22,Friday,False,Male
+2024-08-09 22:23:00,Adıyaman,1,15285.0,15285.0,41-50,Washing Machine,22,Friday,False,Male
+2024-08-09 22:40:00,İstanbul,1,1680.0,1680.0,31-40,Mixer,22,Friday,False,Male
+2024-08-09 22:56:00,İstanbul,1,4620.0,4620.0,41-50,Vacuum Cleaner,22,Friday,False,Female
+2024-08-09 23:04:00,Karaman,1,4410.0,4410.0,31-40,Vacuum Cleaner,23,Friday,False,Female
+2024-08-09 23:24:00,Siirt,1,6150.0,6150.0,41-50,Vacuum Cleaner,23,Friday,False,Male
+2024-08-09 23:56:00,Denizli,1,12500.0,12500.0,,Kitchen Robot,23,Friday,False,Male
+2024-08-10 00:19:00,İstanbul,1,25970.0,25970.0,31-40,Washing Machine,0,Saturday,True,Male
+2024-08-10 09:20:00,Hatay,1,5520.0,5520.0,31-40,Vacuum Cleaner,9,Saturday,True,Male
+2024-08-10 10:30:00,İstanbul,1,15358.0,15358.0,21-30,Dishwasher,10,Saturday,True,Female
+2024-08-10 10:35:00,Ordu,1,10698.0,10698.0,21-30,Oven,10,Saturday,True,Male
+2024-08-10 10:36:00,Bursa,1,1565.0,1565.0,31-40,Coffee Machine,10,Saturday,True,Female
+2024-08-10 10:48:00,Kastamonu,2,6150.0,12300.0,,Vacuum Cleaner,10,Saturday,True,Male
+2024-08-10 11:26:00,Ankara,1,4620.0,4620.0,51-60,Vacuum Cleaner,11,Saturday,True,Male
+2024-08-10 11:52:00,İzmir,1,3583.0,3583.0,,Vacuum Cleaner,11,Saturday,True,Female
+2024-08-10 12:24:00,Rize,1,15358.0,15358.0,41-50,Dishwasher,12,Saturday,True,Female
+2024-08-10 12:53:00,Konya,1,1250.0,1250.0,,Coffee Machine,12,Saturday,True,Female
+2024-08-10 13:57:00,Kocaeli,1,6150.0,6150.0,31-40,Vacuum Cleaner,13,Saturday,True,Female
+2024-08-10 14:24:00,Edirne,1,12500.0,12500.0,,Kitchen Robot,14,Saturday,True,Female
+2024-08-10 14:34:00,İstanbul,1,10698.0,10698.0,31-40,Oven,14,Saturday,True,Female
+2024-08-10 14:54:00,Adana,1,3583.0,3583.0,,Vacuum Cleaner,14,Saturday,True,Female
+2024-08-10 15:04:00,Antalya,1,15450.0,15450.0,,Deep Freezer,15,Saturday,True,Female
+2024-08-10 15:05:00,Tekirdağ,1,8367.0,8367.0,31-40,Kitchen Robot,15,Saturday,True,Male
+2024-08-10 15:10:00,Bursa,1,3583.0,3583.0,21-30,Vacuum Cleaner,15,Saturday,True,Male
+2024-08-10 15:29:00,Kocaeli,1,3583.0,3583.0,21-30,Vacuum Cleaner,15,Saturday,True,Female
+2024-08-10 15:34:00,Ankara,1,3999.0,3999.0,,Blender,15,Saturday,True,Male
+2024-08-10 16:52:00,İstanbul,1,10698.0,10698.0,,Oven,16,Saturday,True,Male
+2024-08-10 17:00:00,Sivas,1,4620.0,4620.0,51-60,Vacuum Cleaner,17,Saturday,True,Male
+2024-08-10 17:00:00,Sivas,2,5520.0,11040.0,51-60,Vacuum Cleaner,17,Saturday,True,Male
+2024-08-10 18:50:00,İstanbul,1,11133.0,11133.0,41-50,Oven,18,Saturday,True,Female
+2024-08-10 20:04:00,Ordu,1,10698.0,10698.0,21-30,Oven,20,Saturday,True,Female
+2024-08-10 20:40:00,Mersin,1,1700.0,1700.0,21-30,Toaster (Bread),20,Saturday,True,Female
+2024-08-10 21:36:00,Rize,1,2484.0,2484.0,,Blender,21,Saturday,True,Male
+2024-08-10 22:13:00,Trabzon,1,2484.0,2484.0,31-40,Blender,22,Saturday,True,Male
+2024-08-10 22:20:00,İstanbul,1,6150.0,6150.0,31-40,Vacuum Cleaner,22,Saturday,True,Female
+2024-08-10 23:20:00,Konya,1,3350.0,3350.0,,Blender,23,Saturday,True,Male
+2024-08-10 23:44:00,İzmir,1,40150.0,40150.0,,Refrigerator,23,Saturday,True,Male
+2024-08-10 23:55:00,İstanbul,1,18876.0,18876.0,21-30,Dishwasher,23,Saturday,True,Male
+2024-08-11 09:59:00,Sakarya,1,6983.0,6983.0,31-40,Extractor Hood,9,Sunday,True,Female
+2024-08-11 11:08:00,Konya,1,17500.0,17500.0,,Other,11,Sunday,True,Female
+2024-08-11 11:55:00,Ankara,1,1800.0,1800.0,21-30,Coffee Machine,11,Sunday,True,Female
+2024-08-11 12:05:00,Balıkesir,1,5520.0,5520.0,21-30,Vacuum Cleaner,12,Sunday,True,Female
+2024-08-11 13:26:00,Ankara,1,6983.0,6983.0,,Extractor Hood,13,Sunday,True,Female
+2024-08-11 13:30:00,İstanbul,1,8367.0,8367.0,,Kitchen Robot,13,Sunday,True,Female
+2024-08-11 13:31:00,Kastamonu,1,5700.0,5700.0,,Cooktop,13,Sunday,True,Female
+2024-08-11 14:03:00,Uşak,1,2700.0,2700.0,41-50,Toaster (Bread),14,Sunday,True,Male
+2024-08-11 15:08:00,Elazığ,1,9615.0,9615.0,,Kitchen Robot,15,Sunday,True,Female
+2024-08-11 15:48:00,Kocaeli,1,2490.0,2490.0,21-30,Blender,15,Sunday,True,Female
+2024-08-11 15:58:00,İzmir,1,3583.0,3583.0,,Vacuum Cleaner,15,Sunday,True,Male
+2024-08-11 16:07:00,Şanlıurfa,1,19900.0,19900.0,31-40,Dishwasher,16,Sunday,True,Female
+2024-08-11 17:33:00,Kocaeli,1,2484.0,2484.0,31-40,Blender,17,Sunday,True,Female
+2024-08-11 19:01:00,Ankara,1,10600.0,10600.0,31-40,Oven,19,Sunday,True,Male
+2024-08-11 19:14:00,İstanbul,1,5520.0,5520.0,71+,Vacuum Cleaner,19,Sunday,True,Female
+2024-08-11 20:25:00,İzmir,1,17800.0,17800.0,,Washing Machine,20,Sunday,True,Male
+2024-08-11 20:31:00,Konya,2,5520.0,11040.0,,Vacuum Cleaner,20,Sunday,True,Male
+2024-08-11 20:49:00,İstanbul,1,6653.0,6653.0,,Meat Grinder,20,Sunday,True,Unknown
+2024-08-11 20:54:00,İstanbul,1,1404.0,1404.0,51-60,Blender,20,Sunday,True,Male
+2024-08-11 21:04:00,Ankara,1,6653.0,6653.0,,Meat Grinder,21,Sunday,True,Male
+2024-08-11 21:11:00,Antalya,1,10440.0,10440.0,,Oven,21,Sunday,True,Female
+2024-08-11 21:35:00,Ankara,1,36960.0,36960.0,,Refrigerator,21,Sunday,True,Male
+2024-08-11 22:28:00,İstanbul,1,8367.0,8367.0,21-30,Kitchen Robot,22,Sunday,True,Female
+2024-08-11 22:45:00,Bolu,1,20700.0,20700.0,,Dryer,22,Sunday,True,Male
+2024-08-11 22:46:00,Antalya,1,10717.0,10717.0,,Oven,22,Sunday,True,Male
+2024-08-11 23:03:00,Sivas,1,16900.0,16900.0,,Dishwasher,23,Sunday,True,Female
+2024-08-11 23:08:00,İstanbul,1,7115.0,7115.0,71+,Extractor Hood,23,Sunday,True,Male
+2024-08-12 11:00:00,Bilecik,1,10440.0,10440.0,,Oven,11,Monday,False,Female
+2024-08-12 14:04:00,İzmir,1,12848.0,12848.0,21-30,Vacuum Cleaner,14,Monday,False,Male
+2024-08-12 18:58:00,Sakarya,1,10600.0,10600.0,31-40,Oven,18,Monday,False,Male
+2024-08-12 19:20:00,Bursa,1,17070.0,17070.0,41-50,Dishwasher,19,Monday,False,Male
+2024-08-12 20:58:00,Düzce,1,17070.0,17070.0,41-50,Dishwasher,20,Monday,False,Male
+2024-08-12 23:51:00,Eskişehir,1,8367.0,8367.0,,Kitchen Robot,23,Monday,False,Female
+2024-08-13 19:11:00,Muğla,1,17070.0,17070.0,,Dishwasher,19,Tuesday,False,Female
+2024-08-13 19:31:00,İzmir,1,7375.0,7375.0,,Kitchen Robot,19,Tuesday,False,Female
+2024-08-13 23:00:00,Diyarbakır,1,5520.0,5520.0,,Vacuum Cleaner,23,Tuesday,False,Female
+2024-08-13 23:12:00,İstanbul,1,11759.02,11759.02,21-30,Oven,23,Tuesday,False,Female
+2024-08-13 23:40:00,Van,1,2484.0,2484.0,,Blender,23,Tuesday,False,Female
+2024-08-13 23:47:00,Balıkesir,1,2350.0,2350.0,71+,Toaster,23,Tuesday,False,Female
+2024-08-14 01:37:00,İstanbul,1,16900.0,16900.0,31-40,Dishwasher,1,Wednesday,False,Unknown
+2024-08-14 08:06:00,Çanakkale,1,3450.0,3450.0,,Toaster,8,Wednesday,False,Female
+2024-08-14 08:47:00,Sinop,1,27800.0,27800.0,31-40,Refrigerator,8,Wednesday,False,Male
+2024-08-14 10:17:00,Çankırı,1,6800.0,6800.0,,Cooktop,10,Wednesday,False,Female
+2024-08-14 10:22:00,Osmaniye,1,15900.0,15900.0,71+,Dishwasher,10,Wednesday,False,Male
+2024-08-14 11:47:00,İzmir,1,4427.0,4427.0,,Oven,11,Wednesday,False,Male
+2024-08-14 11:50:00,İstanbul,1,16800.0,16800.0,,Washing Machine,11,Wednesday,False,Male
+2024-08-14 12:10:00,Ankara,1,16800.0,16800.0,31-40,Washing Machine,12,Wednesday,False,Female
+2024-08-14 12:18:00,Erzurum,2,5307.0,10614.0,31-40,Vacuum Cleaner,12,Wednesday,False,Male
+2024-08-14 12:43:00,Amasya,1,4427.0,4427.0,21-30,Oven,12,Wednesday,False,Female
+2024-08-14 13:13:00,Aydın,1,16792.0,16792.0,,Dishwasher,13,Wednesday,False,Female
+2024-08-14 13:28:00,Muğla,1,19563.0,19563.0,,Dishwasher,13,Wednesday,False,Female
+2024-08-14 13:35:00,İstanbul,1,1601.0,1601.0,41-50,Mixer,13,Wednesday,False,Male
+2024-08-14 13:56:00,Ankara,1,1601.0,1601.0,51-60,Mixer,13,Wednesday,False,Male
+2024-08-14 14:06:00,Rize,2,9926.0,19852.0,41-50,Kitchen Robot,14,Wednesday,False,Male
+2024-08-14 14:21:00,Erzincan,1,1404.0,1404.0,51-60,Blender,14,Wednesday,False,Male
+2024-08-14 15:07:00,İstanbul,1,9926.0,9926.0,21-30,Kitchen Robot,15,Wednesday,False,Female
+2024-08-14 15:10:00,Kocaeli,1,16800.0,16800.0,21-30,Washing Machine,15,Wednesday,False,Female
+2024-08-14 15:57:00,Antalya,1,22350.0,22350.0,71+,Refrigerator,15,Wednesday,False,Female
+2024-08-14 15:58:00,Antalya,1,19700.0,19700.0,,Dryer,15,Wednesday,False,Male
+2024-08-14 16:14:00,Antalya,1,10600.0,10600.0,31-40,Oven,16,Wednesday,False,Female
+2024-08-14 16:29:00,Antalya,1,6800.0,6800.0,31-40,Cooktop,16,Wednesday,False,Female
+2024-08-14 17:13:00,Balıkesir,1,1404.0,1404.0,,Blender,17,Wednesday,False,Female
+2024-08-14 17:31:00,Siirt,1,16797.0,16797.0,,Dryer,17,Wednesday,False,Male
+2024-08-14 19:09:00,İstanbul,1,6527.0,6527.0,71+,Cooktop,19,Wednesday,False,Male
+2024-08-14 19:23:00,İstanbul,1,2310.0,2310.0,,Toaster,19,Wednesday,False,Male
+2024-08-14 19:32:00,Bolu,1,11773.0,11773.0,,Oven,19,Wednesday,False,Male
+2024-08-14 19:46:00,Kırklareli,1,1404.0,1404.0,,Blender,19,Wednesday,False,Female
+2024-08-14 20:26:00,Edirne,1,4700.0,4700.0,,Oven,20,Wednesday,False,Male
+2024-08-14 20:34:00,Ordu,1,19700.0,19700.0,71+,Dryer,20,Wednesday,False,Female
+2024-08-14 21:03:00,İzmir,1,21043.0,21043.0,71+,Washing Machine,21,Wednesday,False,Female
+2024-08-14 21:13:00,Aydın,1,16797.0,16797.0,41-50,Dryer,21,Wednesday,False,Female
+2024-08-14 22:04:00,Mersin,1,7500.0,7500.0,31-40,Kitchen Robot,22,Wednesday,False,Female
+2024-08-14 22:17:00,Kahramanmaraş,1,16792.0,16792.0,,Dishwasher,22,Wednesday,False,Male
+2024-08-14 22:56:00,Van,1,16792.0,16792.0,,Dishwasher,22,Wednesday,False,Male
+2024-08-14 23:05:00,İzmir,1,48900.0,48900.0,41-50,Refrigerator,23,Wednesday,False,Female
+2024-08-14 23:21:00,Bursa,1,6983.0,6983.0,31-40,Extractor Hood,23,Wednesday,False,Male
+2024-08-14 23:26:00,Eskişehir,1,2310.0,2310.0,,Toaster,23,Wednesday,False,Male
+2024-08-14 23:34:00,Konya,1,10354.0,10354.0,,Oven,23,Wednesday,False,Male
+2024-08-14 23:50:00,Bursa,1,3732.0,3732.0,21-30,Blender,23,Wednesday,False,Female
+2024-08-15 00:13:00,Kocaeli,1,12500.0,12500.0,21-30,Oven,0,Thursday,False,Female
+2024-08-15 00:27:00,İzmir,1,2310.0,2310.0,,Toaster,0,Thursday,False,Female
+2024-08-15 00:36:00,Artvin,1,1400.0,1400.0,,Mixer,0,Thursday,False,Female
+2024-08-15 02:05:00,İstanbul,1,4427.0,4427.0,31-40,Oven,2,Thursday,False,Unknown
+2024-08-15 06:29:00,Siirt,1,16792.0,16792.0,,Dishwasher,6,Thursday,False,Male
+2024-08-15 09:58:00,Kocaeli,1,3732.0,3732.0,21-30,Blender,9,Thursday,False,Female
+2024-08-15 11:16:00,Ordu,1,7500.0,7500.0,,Kitchen Robot,11,Thursday,False,Female
+2024-08-15 12:00:00,Tokat,1,20899.0,20899.0,31-40,Dryer,12,Thursday,False,Female
+2024-08-15 12:42:00,Konya,1,3999.0,3999.0,31-40,Blender,12,Thursday,False,Male
+2024-08-15 13:20:00,Ankara,1,3732.0,3732.0,31-40,Blender,13,Thursday,False,Female
+2024-08-15 13:39:00,Ankara,1,11773.0,11773.0,,Oven,13,Thursday,False,Male
+2024-08-15 13:56:00,Sivas,1,16792.0,16792.0,,Dishwasher,13,Thursday,False,Male
+2024-08-15 14:00:00,Konya,1,5307.0,5307.0,,Vacuum Cleaner,14,Thursday,False,Male
+2024-08-15 14:10:00,İstanbul,1,21750.0,21750.0,51-60,Washing Machine,14,Thursday,False,Male
+2024-08-15 15:19:00,Adıyaman,1,3732.0,3732.0,71+,Blender,15,Thursday,False,Male
+2024-08-15 16:32:00,Antalya,1,24650.0,24650.0,41-50,Refrigerator,16,Thursday,False,Male
+2024-08-15 19:29:00,Denizli,1,3419.0,3419.0,21-30,Kettle/Tea Maker,19,Thursday,False,Female
+2024-08-15 21:16:00,İstanbul,1,4700.0,4700.0,,Oven,21,Thursday,False,Male
+2024-08-15 21:57:00,Muğla,1,1330.0,1330.0,,Mixer,21,Thursday,False,Female
+2024-08-15 22:53:00,Konya,1,4829.0,4829.0,,Kitchen Robot,22,Thursday,False,Female
+2024-08-15 23:43:00,İstanbul,1,9250.0,9250.0,,Vacuum Cleaner,23,Thursday,False,Male
+2024-08-16 00:12:00,Rize,1,25800.0,25800.0,,Refrigerator,0,Friday,False,Male
+2024-08-16 11:15:00,Bartın,1,16792.0,16792.0,31-40,Dishwasher,11,Friday,False,Male
+2024-08-16 21:21:00,Mersin,1,16792.0,16792.0,,Dishwasher,21,Friday,False,Male
+2024-08-19 11:37:00,Antalya,1,17900.0,17900.0,,Dishwasher,11,Monday,False,Male
+2024-08-19 11:55:00,Eskişehir,1,16797.0,16797.0,21-30,Dryer,11,Monday,False,Female
+2024-08-19 13:18:00,Antalya,1,6983.0,6983.0,41-50,Extractor Hood,13,Monday,False,Female
+2024-08-19 13:53:00,İstanbul,1,3999.0,3999.0,,Blender,13,Monday,False,Female
+2024-08-19 13:57:00,İstanbul,1,7360.0,7360.0,71+,Vacuum Cleaner,13,Monday,False,Male
+2024-08-19 14:02:00,Sivas,1,17870.0,17870.0,,Dishwasher,14,Monday,False,Male
+2024-08-19 15:15:00,Kocaeli,1,1650.0,1650.0,41-50,Coffee Machine,15,Monday,False,Male
+2024-08-19 16:32:00,Kocaeli,1,41865.0,41865.0,,Refrigerator,16,Monday,False,Female
+2024-08-19 17:10:00,İstanbul,1,21750.0,21750.0,31-40,Washing Machine,17,Monday,False,Female
+2024-08-19 17:12:00,Tekirdağ,1,1650.0,1650.0,51-60,Coffee Machine,17,Monday,False,Male
+2024-08-19 23:27:00,Burdur,1,21043.0,21043.0,31-40,Washing Machine,23,Monday,False,Female
+2024-08-20 00:10:00,İstanbul,1,16797.0,16797.0,0-20,Dryer,0,Tuesday,False,Female
+2024-08-20 10:06:00,Eskişehir,1,1514.0,1514.0,,Coffee Machine,10,Tuesday,False,Male
+2024-08-20 10:07:00,Van,1,3999.0,3999.0,,Blender,10,Tuesday,False,Female
+2024-08-20 10:34:00,İzmir,1,1514.0,1514.0,21-30,Coffee Machine,10,Tuesday,False,Female
+2024-08-20 13:33:00,Çorum,1,20899.0,20899.0,31-40,Dryer,13,Tuesday,False,Female
+2024-08-20 13:34:00,Kayseri,1,1514.0,1514.0,,Coffee Machine,13,Tuesday,False,Male
+2024-08-20 13:56:00,Muğla,1,16797.0,16797.0,41-50,Dryer,13,Tuesday,False,Female
+2024-08-20 14:54:00,Kütahya,1,21750.0,21750.0,51-60,Washing Machine,14,Tuesday,False,Male
+2024-08-20 16:28:00,Bilecik,1,13065.0,13065.0,31-40,Oven,16,Tuesday,False,Female
+2024-08-20 16:49:00,Nevşehir,1,10900.0,10900.0,,Oven,16,Tuesday,False,Male
+2024-08-20 17:09:00,Antalya,1,2250.0,2250.0,,Kettle/Tea Maker,17,Tuesday,False,Male
+2024-08-20 17:50:00,İstanbul,2,2250.0,4500.0,21-30,Kettle/Tea Maker,17,Tuesday,False,Female
+2024-08-20 19:37:00,Kütahya,1,26068.0,26068.0,31-40,Dryer,19,Tuesday,False,Male
+2024-08-20 21:15:00,Edirne,1,7360.0,7360.0,31-40,Vacuum Cleaner,21,Tuesday,False,Female
+2024-08-20 21:48:00,Niğde,1,37999.0,37999.0,,Refrigerator,21,Tuesday,False,Female
+2024-08-20 22:25:00,Ankara,1,1850.0,1850.0,31-40,Kettle/Tea Maker,22,Tuesday,False,Female
+2024-08-21 08:25:00,Muğla,1,1850.0,1850.0,31-40,Kettle/Tea Maker,8,Wednesday,False,Female
+2024-08-21 13:24:00,Gaziantep,1,1350.0,1350.0,31-40,Mixer,13,Wednesday,False,Female
+2024-08-21 13:49:00,Rize,1,8820.0,8820.0,31-40,Kitchen Robot,13,Wednesday,False,Male
+2024-08-21 15:10:00,İstanbul,1,19763.0,19763.0,,Dishwasher,15,Wednesday,False,Male
+2024-08-21 15:53:00,Sakarya,1,1350.0,1350.0,,Mixer,15,Wednesday,False,Male
+2024-08-21 17:52:00,Manisa,1,11200.0,11200.0,,Oven,17,Wednesday,False,Male
+2024-08-21 20:09:00,Manisa,1,10100.0,10100.0,31-40,Oven,20,Wednesday,False,Male
+2024-08-21 20:27:00,Bartın,1,10100.0,10100.0,31-40,Oven,20,Wednesday,False,Female
+2024-08-21 21:42:00,Tunceli,1,10900.0,10900.0,21-30,Oven,21,Wednesday,False,Female
+2024-08-21 22:02:00,Ankara,1,10100.0,10100.0,21-30,Oven,22,Wednesday,False,Female
+2024-08-22 09:39:00,İstanbul,1,6914.0,6914.0,41-50,Extractor Hood,9,Thursday,False,Female
+2024-08-22 11:17:00,İstanbul,1,3547.0,3547.0,41-50,Blender,11,Thursday,False,Female
+2024-08-22 12:26:00,İzmir,1,1850.0,1850.0,,Kettle/Tea Maker,12,Thursday,False,Male
+2024-08-22 12:42:00,Antalya,1,6914.0,6914.0,31-40,Extractor Hood,12,Thursday,False,Female
+2024-08-22 15:19:00,Rize,1,22750.0,22750.0,,Dishwasher,15,Thursday,False,Male
+2024-08-22 17:58:00,Aksaray,1,5700.0,5700.0,41-50,Cooktop,17,Thursday,False,Male
+2024-08-22 18:14:00,Hakkari,1,41865.0,41865.0,,Refrigerator,18,Thursday,False,Male
+2024-08-22 18:16:00,Çanakkale,1,3547.0,3547.0,,Blender,18,Thursday,False,Female
+2024-08-22 19:18:00,İzmir,1,1850.0,1850.0,31-40,Kettle/Tea Maker,19,Thursday,False,Male
+2024-08-22 22:20:00,Kocaeli,1,14990.0,14990.0,,Washing Machine,22,Thursday,False,Male
+2024-08-22 22:21:00,Aydın,1,18850.0,18850.0,71+,Dryer,22,Thursday,False,Male
+2024-08-23 00:31:00,Hakkari,1,20999.0,20999.0,,Dishwasher,0,Friday,False,Male
+2024-08-23 18:32:00,İzmir,1,8750.0,8750.0,,Washing Machine,18,Friday,False,Male
+2024-08-23 18:44:00,İstanbul,1,6150.0,6150.0,0-20,Extractor Hood,18,Friday,False,Female
+2024-08-23 19:51:00,Hakkari,1,14990.0,14990.0,31-40,Washing Machine,19,Friday,False,Male
+2024-08-23 20:33:00,Ordu,1,15900.0,15900.0,31-40,Dishwasher,20,Friday,False,Female
+2024-08-23 20:34:00,Sakarya,1,33900.0,33900.0,,Refrigerator,20,Friday,False,Male
+2024-08-23 20:34:00,Niğde,1,18499.0,18499.0,21-30,Dryer,20,Friday,False,Female
+2024-08-23 20:36:00,Hakkari,1,15900.0,15900.0,31-40,Dishwasher,20,Friday,False,Male
+2024-08-23 20:36:00,Hakkari,1,16890.0,16890.0,31-40,Dishwasher,20,Friday,False,Male
+2024-08-23 20:36:00,Hakkari,1,16792.0,16792.0,31-40,Dishwasher,20,Friday,False,Male
+2024-08-23 20:52:00,Aydın,1,6150.0,6150.0,31-40,Extractor Hood,20,Friday,False,Male
+2024-08-23 21:17:00,Kocaeli,1,14990.0,14990.0,31-40,Washing Machine,21,Friday,False,Male
+2024-08-23 21:39:00,Antalya,1,18499.0,18499.0,,Dryer,21,Friday,False,Male
+2024-08-23 22:01:00,İstanbul,1,14990.0,14990.0,31-40,Washing Machine,22,Friday,False,Male
+2024-08-23 22:12:00,Kars,1,14990.0,14990.0,,Washing Machine,22,Friday,False,Female
+2024-08-23 22:17:00,Antalya,1,15900.0,15900.0,,Dishwasher,22,Friday,False,Male
+2024-08-23 22:32:00,Uşak,1,22750.0,22750.0,,Dishwasher,22,Friday,False,Male
+2024-08-23 22:34:00,İzmir,1,14990.0,14990.0,21-30,Washing Machine,22,Friday,False,Male
+2024-08-23 22:45:00,İzmir,1,15358.0,15358.0,31-40,Dishwasher,22,Friday,False,Female
+2024-08-23 23:06:00,Samsun,1,14990.0,14990.0,,Washing Machine,23,Friday,False,Male
+2024-08-23 23:06:00,Malatya,1,14990.0,14990.0,71+,Washing Machine,23,Friday,False,Male
+2024-08-23 23:38:00,Çankırı,1,2310.0,2310.0,,Toaster,23,Friday,False,Male
+2024-08-24 00:02:00,İzmir,1,14990.0,14990.0,,Washing Machine,0,Saturday,True,Male
+2024-08-24 00:26:00,Mardin,1,9970.0,9970.0,71+,Oven,0,Saturday,True,Female
+2024-08-24 00:43:00,İzmir,1,14990.0,14990.0,,Washing Machine,0,Saturday,True,Male
+2024-08-24 00:46:00,Edirne,1,14990.0,14990.0,,Washing Machine,0,Saturday,True,Female
+2024-08-24 11:08:00,Gaziantep,1,7115.0,7115.0,,Extractor Hood,11,Saturday,True,Male
+2024-08-24 11:51:00,Kırıkkale,1,15950.0,15950.0,41-50,Washing Machine,11,Saturday,True,Female
+2024-08-24 12:02:00,İstanbul,1,4750.0,4750.0,,Cooktop,12,Saturday,True,Female
+2024-08-24 12:24:00,Ankara,2,109.0,218.0,,Dust Bag,12,Saturday,True,Male
+2024-08-24 12:30:00,Sakarya,1,2490.0,2490.0,,Blender,12,Saturday,True,Male
+2024-08-24 12:53:00,Van,1,10750.0,10750.0,,Oven,12,Saturday,True,Male
+2024-08-24 12:53:00,Kırşehir,1,15189.0,15189.0,21-30,Cooktop,12,Saturday,True,Female
+2024-08-24 13:39:00,Trabzon,1,10750.0,10750.0,41-50,Oven,13,Saturday,True,Male
+2024-08-24 13:44:00,İstanbul,1,16792.0,16792.0,71+,Dishwasher,13,Saturday,True,Female
+2024-08-24 14:00:00,Muğla,1,11773.0,11773.0,,Oven,14,Saturday,True,Male
+2024-08-24 14:13:00,Eskişehir,1,10750.0,10750.0,41-50,Oven,14,Saturday,True,Male
+2024-08-24 14:28:00,Antalya,1,6150.0,6150.0,31-40,Extractor Hood,14,Saturday,True,Male
+2024-08-24 15:30:00,Kütahya,1,8200.0,8200.0,,Extractor Hood,15,Saturday,True,Male
+2024-08-24 15:43:00,Muğla,1,1850.0,1850.0,21-30,Kettle/Tea Maker,15,Saturday,True,Female
+2024-08-24 19:34:00,İzmir,2,109.0,218.0,41-50,Dust Bag,19,Saturday,True,Female
+2024-08-24 20:18:00,İstanbul,1,19763.0,19763.0,31-40,Dishwasher,20,Saturday,True,Male
+2024-08-24 20:33:00,İstanbul,1,8999.0,8999.0,,Extractor Hood,20,Saturday,True,Female
+2024-08-24 21:20:00,Antalya,1,10490.0,10490.0,21-30,Oven,21,Saturday,True,Female
+2024-08-24 23:14:00,Erzincan,1,16400.0,16400.0,,Washing Machine,23,Saturday,True,Male
+2024-08-24 23:48:00,Elazığ,1,15350.0,15350.0,,Dishwasher,23,Saturday,True,Male
+2024-08-25 10:36:00,Osmaniye,1,6150.0,6150.0,21-30,Extractor Hood,10,Sunday,True,Male
+2024-08-25 11:52:00,İstanbul,1,7899.0,7899.0,31-40,Extractor Hood,11,Sunday,True,Female
+2024-08-25 12:29:00,İstanbul,1,109.0,109.0,51-60,Dust Bag,12,Sunday,True,Male
+2024-08-25 12:47:00,Şanlıurfa,1,15609.0,15609.0,71+,Dishwasher,12,Sunday,True,Male
+2024-08-25 13:11:00,Gaziantep,1,1299.0,1299.0,,Mixer,13,Sunday,True,Female
+2024-08-25 13:38:00,Trabzon,1,15350.0,15350.0,,Dishwasher,13,Sunday,True,Male
+2024-08-25 14:09:00,İstanbul,1,15350.0,15350.0,31-40,Dishwasher,14,Sunday,True,Male
+2024-08-25 14:48:00,Balıkesir,1,2700.0,2700.0,41-50,Toaster (Bread),14,Sunday,True,Female
+2024-08-25 15:56:00,Manisa,1,1299.0,1299.0,,Mixer,15,Sunday,True,Male
+2024-08-25 16:26:00,Niğde,1,15350.0,15350.0,,Dishwasher,16,Sunday,True,Male
+2024-08-25 20:48:00,İstanbul,1,9999.0,9999.0,,Kitchen Robot,20,Sunday,True,Female
+2024-08-25 21:18:00,İstanbul,1,8250.0,8250.0,71+,Cooktop,21,Sunday,True,Male
+2024-08-25 21:47:00,Kocaeli,1,7100.0,7100.0,31-40,Cooktop,21,Sunday,True,Male
+2024-08-25 22:09:00,Eskişehir,1,10700.0,10700.0,0-20,Oven,22,Sunday,True,Male
+2024-08-25 23:09:00,Sakarya,1,1899.0,1899.0,,Blender,23,Sunday,True,Female
+2024-08-26 01:02:00,Isparta,1,31560.0,31560.0,41-50,Dryer,1,Monday,False,Male
+2024-08-26 01:19:00,Bursa,1,3699.0,3699.0,,Blender,1,Monday,False,Female
+2024-08-26 10:48:00,Balıkesir,1,1499.0,1499.0,0-20,Toaster (Bread),10,Monday,False,Male
+2024-08-26 11:16:00,Ankara,1,31560.0,31560.0,31-40,Dryer,11,Monday,False,Male
+2024-08-26 13:46:00,Kocaeli,1,8250.0,8250.0,41-50,Cooktop,13,Monday,False,Male
+2024-08-26 14:26:00,Gaziantep,1,4450.0,4450.0,31-40,Extractor Hood,14,Monday,False,Male
+2024-08-26 14:40:00,İstanbul,1,3699.0,3699.0,21-30,Blender,14,Monday,False,Female
+2024-08-26 17:35:00,Tunceli,1,44900.0,44900.0,41-50,Refrigerator,17,Monday,False,Male
+2024-08-26 19:14:00,İstanbul,1,19475.0,19475.0,,Washing Machine,19,Monday,False,Male
+2024-08-26 19:36:00,Balıkesir,1,19599.0,19599.0,,Dishwasher,19,Monday,False,Male
+2024-08-26 22:36:00,İstanbul,1,10700.0,10700.0,,Oven,22,Monday,False,Male
+2024-08-27 13:46:00,İstanbul,1,18485.0,18485.0,,Dishwasher,13,Tuesday,False,Female
+2024-08-27 17:36:00,Denizli,1,15609.0,15609.0,0-20,Dishwasher,17,Tuesday,False,Female
+2024-08-27 18:58:00,Ankara,1,16900.0,16900.0,,Dishwasher,18,Tuesday,False,Female
+2024-08-27 22:21:00,İstanbul,1,22700.0,22700.0,31-40,Washing Machine,22,Tuesday,False,Female
+2024-08-27 22:32:00,Hatay,1,1899.0,1899.0,41-50,Blender,22,Tuesday,False,Female
+2024-08-27 23:08:00,İstanbul,1,10490.0,10490.0,31-40,Oven,23,Tuesday,False,Male
+2024-08-27 23:34:00,Zonguldak,1,19471.0,19471.0,41-50,Dishwasher,23,Tuesday,False,Male
+2024-08-28 00:54:00,Ankara,1,1990.0,1990.0,,Kettle/Tea Maker,0,Wednesday,False,Male
+2024-08-28 01:55:00,Sakarya,1,19900.0,19900.0,,Dishwasher,1,Wednesday,False,Male
+2024-08-28 11:20:00,Kocaeli,1,16000.0,16000.0,31-40,Other,11,Wednesday,False,Female
