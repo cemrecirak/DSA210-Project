@@ -25,7 +25,7 @@ I am a student from Sabancı University, **Cemre Çırak**, and this is my DSA21
 
 ## Data Source
 - The data was collected from the Trendyol seller portal.
-- It includes orders placed between **July and August 2024**.
+- It includes orders placed in **JAugust 2024**.
 - Format: Excel CSV files with detailed transaction-level information.
 
 ---
@@ -63,21 +63,25 @@ I am a student from Sabancı University, **Cemre Çırak**, and this is my DSA21
 ### 1. Gender vs Product Category
 - **Test:** Chi-Square Test of Independence
 - **H₀:** Gender and product category are independent.
+- **H₁:** Gender and product category are associated.
 - **Result:** p-value < 0.05 → **Reject H₀** → Gender and category are associated.
 
 ### 2. Weekday vs Weekend Sales
 - **Test:** Independent t-test
 - **H₀:** Mean sales quantity is the same on weekdays and weekends.
+- **H₁:** Mean sales quantity differs on weekdays and weekends
 - **Result:** p-value > 0.05 → **Fail to reject H₀** → No significant difference.
 
 ### 3. Sales by Hour
 - **Test:** One-Way ANOVA
 - **H₀:** No difference in sales quantity across different hours.
+- **H₁:** Hour has a significant effect on the sales quantity.
 - **Result:** p-value < 0.05 → **Reject H₀** → Hour has a significant effect.
 
 ### 4. City vs Product Category
 - **Test:** Chi-Square Test of Independence
 - **H₀:** No relationship between city and product category.
+- **H₁:** City and product category are associated.
 - **Result:** p-value < 0.05 → **Reject H₀** → City and category are associated.
 
 ---
@@ -93,11 +97,11 @@ I am a student from Sabancı University, **Cemre Çırak**, and this is my DSA21
 ## Limitations and Future Work
 - Many gender values were inferred, not directly provided.
 - Age data was not always available or clean.
+- The data was limited to one month so no seasonal trends could be observed.
 - No direct pricing optimization or machine learning model implemented yet.
 - Future steps:
-  - Use clustering to find customer segments.
   - Add pricing trend analysis.
-  - Expand to a broader dataset covering a full year.
+  - Expand to a broader dataset covering a full year to explore seasonal trends.
 
 ---
 
@@ -106,20 +110,5 @@ I am a student from Sabancı University, **Cemre Çırak**, and this is my DSA21
 - Google Colab
 - GitHub for version control and submission
 
----
 
-## Repository Structure
-```
-.
-├── data/                   # Raw and cleaned datasets
-├── notebooks/             # Colab notebooks for EDA, preprocessing, and testing
-├── images/                # All generated plots
-├── README.md              # Project overview and documentation
-└── requirements.txt       # Python dependencies
-```
-
----
-
-## Acknowledgements
-Thanks to DSA210 instructors and Trendyol's seller platform for the data access.
 
