@@ -69,7 +69,7 @@ I plotted various charts to visualize data to explore patterns to guide me throu
 - **Sales by Gender:** Bar chart comparing purchase quantity by gender.
 - **Sales by City:** Horizontal bar chart ranking cities by total quantity sold.
 ### 1. Daily Sales Trend
--⁠  ⁠This line chart shows the number of units sold each day throughout August.
+- ⁠This line chart shows the number of units sold each day throughout August.
 -⁠  ⁠Peaks appear on August 4, 10, and 14, indicating high-activity days.
 -⁠  ⁠Dips after peaks may suggest day-of-week variation or post-campaign cooling.
 ![image](https://github.com/user-attachments/assets/c8bd6b5b-672a-4980-b527-9deef8d17df4)
