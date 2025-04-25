@@ -24,37 +24,93 @@ I am a student from Sabancı University, **Cemre Çırak**, and this is my DSA21
 ---
 
 ## Data Source
-- The data was collected from the Trendyol seller portal.
+- The data was collected directly from the Trendyol seller portal through the seller's profile.
 - It includes orders placed in **JAugust 2024**.
 - Format: Excel CSV files with detailed transaction-level information.
 
 ---
 
 ## Preprocessing and Cleaning
+This Section has been explained further in the Data Processing part.
+What I did in this section is:
 - Removed irrelevant columns (e.g., barcode, delivery address, invoice number).
 - Standardized column names to lowercase with underscores.
 - Converted date columns to `datetime` objects.
 - Extracted new features: `hour`, `day_of_week`, and `is_weekend` from `order_date`.
+- Observed the columns with missing information.
+- Age and gender data was not always available.
 - Product categories were inferred from the product name using a custom mapping function.
 
 ---
 
 ## Gender Inference
 - The dataset had missing values for customer gender (~50%).
-- To fill missing values, I used Turkish name frequency datasets (female, male, unisex) from GitHub.
-- A normalization function removed Turkish characters from names.
+- To fill missing values, I used large Turkish name frequency datasets (female, male, unisex) available GitHub.
+- A normalization function removed Turkish characters from names (e.g., "ş", "ç", "ö").
 - A new column `guessed_gender` was added:
   - If a name exists in both male and female datasets, the higher frequency was used.
   - If not found, labeled as `"Unknown"`.
+- As a result of this inference method only 4 names were labeled as `"Unknown"`, those entries either contained typos, non-Turkish names or did not belong to individuals.
+- I also ran a chi-square hypothesis test to make sure this method was reliable. I compared the true gender vs the inferred gender and the results showed that the method was reliable.
 
 ---
 
 ## Exploratory Data Analysis (EDA)
+This part had been explained further in the Data Visualization part.
+I plotted various charts to visualize data to explore patterns to guide me throughout the hypothesis testing part.
 - **Sales by Day:** Line chart showing total quantity sold per day.
+
 - **Hourly Sales Trend:** Bar chart showing sales volume distribution over hours.
+
+
 - **Category Distribution:** Count plot for top-selling product categories.
+  
 - **Sales by Gender:** Bar chart comparing purchase quantity by gender.
 - **Sales by City:** Horizontal bar chart ranking cities by total quantity sold.
+### 1. Daily Sales Trend
+•⁠  ⁠This line chart shows the number of units sold each day throughout August.
+•⁠  ⁠Peaks appear on August 4, 10, and 14, indicating high-activity days.
+•⁠  ⁠Dips after peaks may suggest day-of-week variation or post-campaign cooling.
+![image](https://github.com/user-attachments/assets/c8bd6b5b-672a-4980-b527-9deef8d17df4)
+
+### 2. Total Quantity Sold per Product Category
+•⁠  ⁠Dishwashers, Washing Machines, and Ovens lead in sales.
+•⁠  ⁠Meat Grinders, Dust Bags, and 'Other' performed the lowest.
+•⁠  ⁠Helps identify high-demand appliances.
+![image](https://github.com/user-attachments/assets/74a218db-eece-4736-8324-d60dc17546ef)
+
+### 3. Order Frequency by Hour
+•⁠  ⁠Order volume increases after 9:00, peaks around 13:00 and 21:00.
+•⁠  ⁠Early morning and late night hours show minimal activity.
+•⁠  ⁠Useful for optimizing campaign timing.
+![image](https://github.com/user-attachments/assets/5ec42366-77bd-49d8-812a-3d3137d956ef)
+
+### 4. Product Category Distribution by Gender
+•⁠  ⁠Males dominate sales in most categories.
+•⁠  ⁠Females show more interest in Kitchen Robots, Coffee Machines, Blenders.
+•⁠  ⁠Suggests marketing differentiation by gender.
+![image](https://github.com/user-attachments/assets/5cae239a-4356-44d7-8be6-f1230456f6c4)
+
+
+### 5. Sales by City
+•⁠  ⁠Istanbul, Ankara, and Antalya recorded the highest sales volumes.
+•⁠  ⁠Regional insights support targeted marketing and logistics planning.
+![image](https://github.com/user-attachments/assets/a7461d51-d829-40f8-b5b6-12905cf18240)
+
+
+### 6. Product Category Distribution by Age
+•⁠  ⁠31–40 age group shows high variety and volume of purchases.
+•⁠  ⁠Useful for age-based product targeting and positioning.
+![image](https://github.com/user-attachments/assets/44a1cbe4-ad35-4cea-abe2-35b80d98793f)
+
+
+### 7. Sales Heatmap by Day and Hour
+•⁠  ⁠Visualizes temporal sales intensity.
+•⁠  ⁠Highest activity seen during Friday evenings and Sunday afternoons.
+•⁠  ⁠Helps with operational planning and campaign scheduling.
+![image](https://github.com/user-attachments/assets/a2992160-833f-4913-8811-aaed2ed8bd55)
+
+
 
 ---
 
