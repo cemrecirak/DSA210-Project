@@ -145,10 +145,38 @@ The code i used to run the statistical tests can be found in the Hypothesis Test
 ---
 
 ## Findings
-- **Refrigerators, Dishwashers, and Washing Machines** are the most purchased categories.
-- **Peak sales hours** are between 13:00 and 15:00.
-- **Istanbul, Izmir, and Ankara** had the highest purchase volumes.
-- Gender seems to influence the type of product purchased.
+
+- **Top-Selling Categories**  
+  Dishwashers, Washing Machines, and Refrigerators were the most purchased product categories, indicating strong demand for essential white goods.
+
+- **Sales Timing Patterns**  
+  Daily and hourly analysis revealed distinct sales peaks:
+  - Peak hours were observed between **13:00 and 15:00**, and around **21:00**.
+  - Notable sales spikes occurred on **August 4, 10, and 14**, suggesting the influence of specific campaigns or weekend shopping activity.
+
+- **Regional Sales Insights**  
+  - **Istanbul**, **Ankara**, and **Antalya** recorded the highest number of units sold.
+  - These differences imply that regional demand varies and that location-based marketing and stock planning can improve efficiency.
+
+- **Gender-Based Purchasing Behavior**  
+  - Male customers led purchases in most product categories, especially large appliances.
+  - Female customers showed more interest in Kitchen Robots, Coffee Machines, and Blenders.
+  - These trends support the use of gender-targeted advertising and promotions.
+
+- **Age-Based Product Preferences**  
+  - The **31–40 age group** made the highest number of purchases across almost all categories.
+  - This demographic appears to be the most active customer base and could be prioritized in targeted marketing strategies.
+
+- **Temporal Buying Behavior**  
+  - A sales heatmap revealed that **Friday evenings and Sunday afternoons** were peak shopping periods.
+  - Sales volume was lowest during early mornings and late-night hours.
+
+- **Hypothesis Test Results Summary**  
+  - **Gender and Product Category:** Significant association (p = 0.0001)  
+  - **Weekday vs. Weekend Sales:** No significant difference (p = 0.2928)  
+  - **Sales by Hour:** No significant variation across hours (p = 0.6304)  
+  - **City and Product Category:** No significant relationship (p = 0.9778)
+
 
 ---
 
