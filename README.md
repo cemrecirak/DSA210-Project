@@ -1,50 +1,125 @@
-# Trendyol Sales Performance Analysis  
-
+# Trendyol Sales Performance Analysis
 
 ## Project Overview
-I am a student from Sabancı University, Cemre Çırak and this is my DSA 210 term project. In this project my aim is to analyze the sales performance of a white goods seller on the Trendyol platform and identify sales trends to optimize business strategies. The analysis will focus on exploring sales trends, evaluating product category performance, understanding pricing strategies and customer demographics through data available from Trendyol's seller platform between July and August 2024. The project will involve comprehensive data collection, data cleaning, exploratory analysis, visualization, and statistical and machine learning modeling.
+I am a student from Sabancı University, **Cemre Çırak**, and this is my DSA210 term project. The aim of this project is to analyze the sales performance of a white goods seller on the Trendyol platform and identify patterns in customer behavior and product performance. The project includes data cleaning, preprocessing, exploratory data analysis, hypothesis testing, and visualizations.
 
-## Objectives
-- Identify peak sales periods and trends based on daily and hourly data.
-- Evaluate and compare sales performance across different product categories.
-- Analyze the impact of different pricing strategies on sales.
-- Examine customer demographics and their impact on sales.
-- Develop predictive models to forecast future sales and customer behavior.
+## Contents
+- [Motivation](#motivation)
+- [Data Source](#data-source)
+- [Preprocessing and Cleaning](#preprocessing-and-cleaning)
+- [Gender Inference](#gender-inference)
+- [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+- [Hypothesis Testing](#hypothesis-testing)
+- [Findings](#findings)
+- [Limitations and Future Work](#limitations-and-future-work)
+
+---
 
 ## Motivation
-I am interested in exploring the unique dynamic of e-commerce platforms and finding out which categories sell the most and identify sales trends and high-traffic periods. My motivation behind choosing this topic is to gain actionable insights into the  dynamics of selling white goods on Trendyol. These insights can help optimize business strategies on online shopping platforms related to inventory management, pricing, and targeted marketing, ultimately maximizing profitability.
+- Understand which product categories are sold most frequently.
+- Identify peak hours and days for sales performance.
+- Analyze customer demographics (age, gender, location) and their relationship with product preference.
+- Gain actionable insights to optimize pricing, targeting, and inventory management strategies.
 
-## Dataset
-The dataset consists of detailed sales data collected from Trendyol’s seller platform between July and August 2024. Data attributes include:
+---
 
-Sales Date: Date of transaction
+## Data Source
+- The data was collected from the Trendyol seller portal.
+- It includes orders placed between **July and August 2024**.
+- Format: Excel CSV files with detailed transaction-level information.
 
-Sales Time: Time of transaction (hour/minute)
+---
 
-Product Category: Type of white goods (e.g., washing machine, refrigerator, dishwasher, etc.)
+## Preprocessing and Cleaning
+- Removed irrelevant columns (e.g., barcode, delivery address, invoice number).
+- Standardized column names to lowercase with underscores.
+- Converted date columns to `datetime` objects.
+- Extracted new features: `hour`, `day_of_week`, and `is_weekend` from `order_date`.
+- Product categories were inferred from the product name using a custom mapping function.
 
-Price: Sale price of the product
+---
 
-Quantity Sold: Number of units sold per transaction
+## Gender Inference
+- The dataset had missing values for customer gender (~50%).
+- To fill missing values, I used Turkish name frequency datasets (female, male, unisex) from GitHub.
+- A normalization function removed Turkish characters from names.
+- A new column `guessed_gender` was added:
+  - If a name exists in both male and female datasets, the higher frequency was used.
+  - If not found, labeled as `"Unknown"`.
 
-Total Revenue: Total revenue from the sale (price multiplied by quantity sold)
+---
 
-Customer Demographics: Age, location, and other demographic details (if available)xcel format. The datasets has information on factors such as sales date, sale time, product categories, prices, quantity sold, total revenue, and customer demographics (age, location, etc.).
+## Exploratory Data Analysis (EDA)
+- **Sales by Day:** Line chart showing total quantity sold per day.
+- **Hourly Sales Trend:** Bar chart showing sales volume distribution over hours.
+- **Category Distribution:** Count plot for top-selling product categories.
+- **Sales by Gender:** Bar chart comparing purchase quantity by gender.
+- **Sales by City:** Horizontal bar chart ranking cities by total quantity sold.
 
-## Plan
-**Data Collection:** Data will be collected from Trendyol's seller platform.
+---
 
-**Data Cleaning and Preparation:** Data standardization, handling missing values, and normalization.
+## Hypothesis Testing
 
-**Exploratory Data Analysis (EDA):** Identifying sales trends and patterns.
+### 1. Gender vs Product Category
+- **Test:** Chi-Square Test of Independence
+- **H₀:** Gender and product category are independent.
+- **Result:** p-value < 0.05 → **Reject H₀** → Gender and category are associated.
 
-**Visualization:** Using visualization methods such as bar plots, line graphs, and heatmaps.
+### 2. Weekday vs Weekend Sales
+- **Test:** Independent t-test
+- **H₀:** Mean sales quantity is the same on weekdays and weekends.
+- **Result:** p-value > 0.05 → **Fail to reject H₀** → No significant difference.
 
-**Statistical Analysis:** Conduct hypothesis tests
+### 3. Sales by Hour
+- **Test:** One-Way ANOVA
+- **H₀:** No difference in sales quantity across different hours.
+- **Result:** p-value < 0.05 → **Reject H₀** → Hour has a significant effect.
 
-**Machine Learning Modeling:** Regression models for forecasting sales, clustering techniques for customer segmentation.
+### 4. City vs Product Category
+- **Test:** Chi-Square Test of Independence
+- **H₀:** No relationship between city and product category.
+- **Result:** p-value < 0.05 → **Reject H₀** → City and category are associated.
 
+---
 
-## Hypothesis
-- **Null Hypothesis (H₀):** There is no significant relationship between product category, pricing strategies, temporal factors (day/time), and sales performance.
-- **Alternative Hypothesis (Hₐ):** There is a significant relationship between product category, pricing strategies, temporal factors, and sales performance. Different product categories, pricing levels, and times significantly influence sales results.
+## Findings
+- **Refrigerators, Dishwashers, and Washing Machines** are the most purchased categories.
+- **Peak sales hours** are between 13:00 and 15:00.
+- **Istanbul, Izmir, and Ankara** had the highest purchase volumes.
+- Gender seems to influence the type of product purchased.
+
+---
+
+## Limitations and Future Work
+- Many gender values were inferred, not directly provided.
+- Age data was not always available or clean.
+- No direct pricing optimization or machine learning model implemented yet.
+- Future steps:
+  - Use clustering to find customer segments.
+  - Add pricing trend analysis.
+  - Expand to a broader dataset covering a full year.
+
+---
+
+## Technologies Used
+- Python (pandas, matplotlib, seaborn, scipy)
+- Google Colab
+- GitHub for version control and submission
+
+---
+
+## Repository Structure
+```
+.
+├── data/                   # Raw and cleaned datasets
+├── notebooks/             # Colab notebooks for EDA, preprocessing, and testing
+├── images/                # All generated plots
+├── README.md              # Project overview and documentation
+└── requirements.txt       # Python dependencies
+```
+
+---
+
+## Acknowledgements
+Thanks to DSA210 instructors and Trendyol's seller platform for the data access.
+
