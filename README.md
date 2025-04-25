@@ -46,7 +46,7 @@ What I did in this section is:
 
 ## Gender Inference
 - The dataset had missing values for customer gender (~50%).
-- To fill missing values, I used large Turkish name frequency datasets (female, male, unisex) available GitHub.
+- To fill missing values, I used large Turkish name frequency datasets (female, male, unisex) available on GitHub.
 - A normalization function removed Turkish characters from names (e.g., "ş", "ç", "ö").
 - A new column `guessed_gender` was added:
   - If a name exists in both male and female datasets, the higher frequency was used.
