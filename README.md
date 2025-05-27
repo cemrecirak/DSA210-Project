@@ -10,6 +10,7 @@ I am a student from Sabancı University, **Cemre Çırak**, and this is my DSA21
 - [Gender Inference](#gender-inference)
 - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
 - [Hypothesis Testing](#hypothesis-testing)
+- [Machine Learning Modeling](#machine-learning-modeling)
 - [Findings](#findings)
 - [Limitations and Future Work](#limitations-and-future-work)
 
