@@ -144,6 +144,37 @@ The code i used to run the statistical tests can be found in the Hypothesis Test
 
 ---
 
+## Machine Learning Modeling
+
+In order to extend the analysis with predictive capabilities, I implemented a machine learning pipeline to predict the number of items sold per hour using features such as `hour`, `unit_price`, and `guessed_gender`. I applied three regression models:
+
+* Linear Regression
+* Random Forest Regressor
+* Decision Tree Regressor
+
+The models were evaluated using Leave-One-Out Cross-Validation (LOOCV), which is appropriate for smaller datasets and provides robust validation. The following metrics were calculated for each model:
+
+* **Mean Squared Error (MSE)**
+* **R² Score**
+
+Additionally, scatter plots comparing actual versus predicted quantities were plotted for each model to visually assess performance. The ideal prediction line was used as a reference.
+
+### Results Summary
+
+* **Linear Regression:** R² = 0.43, MSE = 70.53
+* **Random Forest:** R² = 0.79, MSE = 26.35
+* **Decision Tree:** R² = 0.69, MSE = 38.09
+
+The best performing model was **Random Forest**, achieving the highest R² score of 0.79. This indicates strong predictive accuracy in modeling hourly sales quantity.
+
+Finally, the best performing model was selected based on the highest R² score. For the winning model (Random Forest or Decision Tree), feature importance was visualized to understand which variables most influenced the model’s predictions.
+
+This modeling section adds predictive insight to the project and provides a scalable framework for future use.
+
+---
+![image](https://github.com/user-attachments/assets/55622f71-b7ab-4fd1-a524-32cd98e20c5f)
+
+
 ## Findings
 
 - **Top-Selling Categories**  
