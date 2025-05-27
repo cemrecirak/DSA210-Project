@@ -169,6 +169,7 @@ Additionally, scatter plots comparing actual versus predicted quantities were pl
   ![image](https://github.com/user-attachments/assets/12ece959-cf55-42f6-b1e0-66a534be9ea9)
 
 * **Decision Tree:** R² = 0.69, MSE = 38.09
+
   ![image](https://github.com/user-attachments/assets/f47b9b5c-d971-48e1-af76-cfaa3bed7dde)
 
 
