@@ -146,7 +146,7 @@ The code i used to run the statistical tests can be found in the Hypothesis Test
 
 ## Machine Learning Modeling
 
-In order to extend the analysis with predictive capabilities, I implemented a machine learning pipeline to predict the number of items sold per hour using features such as `hour`, `unit_price`, and `guessed_gender`. I applied three regression models:
+In order to extend the analysis with predictive capabilities, I implemented a machine learning pipeline to predict the number of items sold per hour using features such as `hour`, `unit_price`, and `guessed_gender`. This prediction task was to better understand the shopping pattern of the customers to support campaign scheduling and inventory planning in the e-commerce operations. I applied three regression models:
 
 * Linear Regression
 * Random Forest Regressor
