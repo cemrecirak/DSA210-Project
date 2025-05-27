@@ -162,8 +162,14 @@ Additionally, scatter plots comparing actual versus predicted quantities were pl
 ### Results Summary
 
 * **Linear Regression:** R² = 0.43, MSE = 70.53
+![image](https://github.com/user-attachments/assets/1e7613a3-6a58-4e28-99ca-eeff6161651e)
+
 * **Random Forest:** R² = 0.79, MSE = 26.35
+  ![image](https://github.com/user-attachments/assets/12ece959-cf55-42f6-b1e0-66a534be9ea9)
+
 * **Decision Tree:** R² = 0.69, MSE = 38.09
+  ![image](https://github.com/user-attachments/assets/f47b9b5c-d971-48e1-af76-cfaa3bed7dde)
+
 
 The best performing model was **Random Forest**, achieving the highest R² score of 0.79. This indicates strong predictive accuracy in modeling hourly sales quantity.
 
@@ -172,7 +178,6 @@ Finally, the best performing model was selected based on the highest R² score. 
 This modeling section adds predictive insight to the project and provides a scalable framework for future use.
 
 ---
-![image](https://github.com/user-attachments/assets/55622f71-b7ab-4fd1-a524-32cd98e20c5f)
 
 
 ## Findings
@@ -208,17 +213,22 @@ This modeling section adds predictive insight to the project and provides a scal
   - **Sales by Hour:** No significant variation across hours (p = 0.6304)  
   - **City and Product Category:** No significant relationship (p = 0.9778)
 
+- **Machine Learning Findings**
+
+  * Predictive modeling was conducted to estimate hourly sales quantity using features like hour of day, unit price, and inferred gender.
+  * Among three models tested, **Random Forest Regressor** performed best with an **R² score of 0.79** and lowest MSE of **26.35**.
+  * This indicates a strong relationship between the selected features and actual sales behavior, demonstrating the viability of using regression-based ML approaches in demand forecasting.
 
 ---
 
-## Limitations and Future Work
+## Limitations
 - Many gender values were inferred, not directly provided.
 - Age data was not always available or clean.
 - The data was limited to one month so no seasonal trends could be observed.
-- No direct pricing optimization or machine learning model implemented yet.
-- Future steps:
-  - Add pricing trend analysis.
-  - Expand to a broader dataset covering a full year to explore seasonal trends.
+- Incorporating more time-based features (e.g. campaign periods, holidays)
+- Using a larger dataset to support deep learning or ensemble models
+- Comparing alternative validation methods (e.g. time-series split)
+
 
 ---
 
